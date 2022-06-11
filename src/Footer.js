@@ -2,11 +2,11 @@ import "./Footer.scss";
 
 function Footer() {
   return (
-    <section>
+    <footer>
       <div>
-        <h1>I love Richard</h1>
+        <p>Copyright Madeleine Randall 2022</p>
       </div>
-    </section>
+    </footer>
   );
 }
 

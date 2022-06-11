@@ -1,0 +1,18 @@
+footer {
+    background-color: chocolate;
+
+    > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;   
+        width: 100%;
+        max-width: 1400px;
+        
+        > p {
+            font-family: 'Lato';
+            font-size: 12px;
+            margin: 0;
+        }
+    }
+}
