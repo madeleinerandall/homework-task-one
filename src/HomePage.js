@@ -2,11 +2,11 @@ import "./HomePage.scss";
 
 function HomePage() {
   return (
-    <section>
+    <main>
       <div>
-        <h1>Richard is super sexy</h1>
+        <img src="../heart.png" alt="heart" />
       </div>
-    </section>
+    </main>
   );
 }
 

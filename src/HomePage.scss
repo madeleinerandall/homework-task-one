@@ -1,0 +1,13 @@
+main {
+    >div {
+       
+        transform: translateY(-42px);
+
+        >img {
+            height: 36px;
+            width: auto;
+            transform: translateY(-42px);
+            transition: all ease 300ms;
+        }
+    }
+}
