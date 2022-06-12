@@ -2,13 +2,15 @@ import "./HomePage.scss";
 
 function HomePage() {
   return (
-    <main className="gutters">
-      <div>
-        <img src="../heart.png" alt="heart" />
-      </div>
-      <div>
-        <h1>I love Richard</h1>
-      </div>
+    <main>
+      <section className="main gutters">
+        <div>
+          <img src="../heart.png" alt="heart" />
+        </div>
+        <div>
+          <h1>I love Richard</h1>
+        </div>
+      </section>
     </main>
   );
 }
