@@ -1,18 +1,61 @@
 footer {
     background-color: chocolate;
+    color: white;
+    font-family: "Lato";
 
-    > div {
+    .footer {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 35px;   
-        width: 100%;
-        max-width: 1400px;
-        
-        > p {
-            font-family: 'Lato';
-            font-size: 12px;
-            margin: 0;
+        justify-content: space-between;
+        padding-top: 80px;
+
+        #right {
+            text-align: right;
         }
+
+        div {
+            width: 50%;
+            max-width: 400px;
+
+            >h4{
+                font-size: 1em;
+                font-weight: normal;
+                text-transform: uppercase !important;
+                line-height: 1.2;
+                margin: 0 0 8px;
+
+                >span {
+                    color: red;
+                }
+            }
+
+            >p {
+                font-size: 0.7rem;
+                margin: 0 0 16px;
+            }
+
+            >nav {
+
+            }
+        }
+    }
+
+    >.copyright {
+        > #copyright {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 25px;   
+            width: 100%;
+            max-width: 1400px;
+            margin-bottom: 16px;
+            
+            > p {
+                font-family: 'Lato';
+                font-size: 0.8em;
+                padding-bottom: 15px;
+                margin: 0;
+            }
+        }
+
     }
 }
