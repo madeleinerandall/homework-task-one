@@ -1,13 +1,39 @@
 main {
     >div {
-       
-        transform: translateY(-42px);
+        height: 80px;
+        width: 100%;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
 
         >img {
+            animation-duration: 1s;
+            animation-name: heartmotion;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+
+            // animation: 1s infinite alternate heartmotion linear;
+              
             height: 36px;
             width: auto;
-            transform: translateY(-42px);
-            transition: all ease 300ms;
+            }
+              
+            @keyframes heartmotion {
+                from {
+                transform: translateY(0px);
+                }
+
+                to {
+                    transform: translateY(-20px);
+                }
+            
+            // position: absolute;
+            // top: 0;
+            // left: 50px;
+            // transform: translateY(0px);
+            // transition: all ease 300ms;
         }
     }
 }
