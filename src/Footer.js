@@ -3,6 +3,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer>
+      <img src="../shape2.png" alt="shape2" />
       <section className="footer gutters">
         <div id="left">
           <h4>
