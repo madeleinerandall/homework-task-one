@@ -1,7 +1,12 @@
 footer {
-    background-color: chocolate;
+    background-color: #f2cad8;
     color: white;
     font-family: "Lato";
+
+    >img {
+        height: 36px;
+        width: auto;
+    }
 
     .footer {
         display: flex;
