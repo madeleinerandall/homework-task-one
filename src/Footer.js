@@ -38,6 +38,23 @@ function Footer() {
             Stay in the loop <span>-</span>
           </h3>
           <p>Sign up for all your MDR news and updates.</p>
+          <input
+            type="email"
+            placeholder="What's your email?"
+            autocomplete="email"
+          />
+          <select name="state" required>
+            <option value="">NSW</option>
+            <option value="VIC">VIC</option>
+            <option value="QLD">QLD</option>
+            <option value="ACT">ACT</option>
+            <option value="TAS">TAS</option>
+            <option value="SA">SA</option>
+            <option value="WA">WA</option>
+          </select>
+          <button>
+            <img src="../airplane.png" alt="plane" />
+          </button>
         </div>
       </section>
       <section className="copyright gutters">
