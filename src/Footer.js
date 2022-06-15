@@ -3,7 +3,9 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer>
-      <img src="../shape2.png" alt="shape2" />
+      <div className="shape-position gutters">
+        <img src="../shape2.png" alt="shape2" />
+      </div>
       <section className="footer gutters">
         <div id="left">
           <h4>
@@ -18,15 +20,39 @@ function Footer() {
             corporis qui quidem quae saepe, dolorem ullam veritatis blanditiis!
             Quos, alias expedita.
           </p>
-          <nav></nav>
+          <nav>
+            <a href="https://www.instagram.com/maddierandall/">
+              <img src="../instagram-colour.png" alt="insta" />
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="../facebook-colour.png" alt="facebook" />
+            </a>
+            <a href="https://twitter.com/?lang=en">
+              <img src="../twitter-colour.png" alt="twitter" />
+            </a>
+          </nav>
         </div>
         <div id="right">
-          <h4>right hand side (for now)</h4>
+          <h3>
+            Stay in the loop <span>-</span>
+          </h3>
+          <p>Sign up for all your CLG news and updates.</p>
         </div>
       </section>
       <section className="copyright gutters">
         <div id="copyright">
-          <p>Copyright Madeleine Randall 2022</p>
+          <ul>
+            <li>Copyright © 2022, Madeleine Randall. All rights reserved.</li>
+            <li>
+              <a href="">Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="">Code of Conduct</a>
+            </li>
+            <li>
+              <a href="">Privacy Policy</a>
+            </li>
+          </ul>
         </div>
       </section>
     </footer>
