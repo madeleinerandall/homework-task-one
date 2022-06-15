@@ -3,9 +3,25 @@ body {
 }
 
 .gutters {
-  padding: 0 3rem;
+  padding: 0 20px;
   margin: auto;
   max-width: 1140px;
   width: 100%;
   box-sizing: border-box;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+
+h4{
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0 0 8px;
 }

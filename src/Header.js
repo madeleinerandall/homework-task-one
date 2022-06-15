@@ -8,9 +8,16 @@ function Header() {
           <h1>Madeleine</h1>
         </div>
         <div className="socials">
-          <img src="../instagram.png" alt="insta" />
-          <img src="../facebook.png" alt="facebook" />
-          <img src="../twitter.png" alt="twitter" />
+          <a href="https://www.instagram.com/maddierandall/">
+            <img src="../instagram.png" alt="insta" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="../facebook.png" alt="facebook" />
+          </a>
+
+          <a href="https://twitter.com/?lang=en">
+            <img src="../twitter.png" alt="twitter" />
+          </a>
         </div>
       </div>
     </header>
