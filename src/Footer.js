@@ -5,6 +5,7 @@ function Footer() {
     <footer>
       <div className="shape-position gutters">
         <img src="../shape2.png" alt="shape2" />
+        <img className="shape3" src="../shape3.png" alt="shape3" />
       </div>
       <section className="footer gutters">
         <div id="left">
@@ -36,7 +37,7 @@ function Footer() {
           <h3>
             Stay in the loop <span>-</span>
           </h3>
-          <p>Sign up for all your CLG news and updates.</p>
+          <p>Sign up for all your MDR news and updates.</p>
         </div>
       </section>
       <section className="copyright gutters">

@@ -3,7 +3,7 @@ body {
 }
 
 .gutters {
-  padding: 0 70px;
+  padding: 0 20px;
   margin: auto;
   max-width: 1140px;
   width: 100%;
@@ -11,7 +11,7 @@ body {
 }
 
 h3{
-  font-size: 2em;
+  font-size: 24px;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.2;
@@ -19,7 +19,7 @@ h3{
 }
 
 h4{
-  font-size: 1em;
+  font-size: 12px;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.2;

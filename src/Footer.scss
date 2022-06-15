@@ -7,9 +7,20 @@ footer {
         display: flex;
         justify-content: right;
 
+        &:hover {
+            .shape3 {
+                display: block;
+            }
+        }
+
+        >.shape3 {
+            display: none; 
+        }
+
         >img {
             height: 80px;
             width: auto;
+            cursor: pointer;
             position: absolute;
             padding-bottom: 10px;
             margin-top: -40px;
@@ -45,8 +56,8 @@ footer {
                 >a {
 
                     >img {
-                        height: 26px;
-                        width: auto;
+                        height: auto;
+                        width: 32px;
                         cursor: pointer;
                         padding: 15px 15px 15px 0px;
                     }
@@ -69,7 +80,7 @@ footer {
                 >li {
                     list-style: none;
                     font-family: 'Lato';
-                    font-size: 0.8em;
+                    font-size: 12px;
                     line-height: 1.5;
                     padding: 0 15px 15px 0;
                     margin: 0;
