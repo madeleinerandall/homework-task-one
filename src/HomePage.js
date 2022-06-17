@@ -1,6 +1,23 @@
 import "./HomePage.scss";
+import { useState } from "react";
+
+// function maddie () {
+//   const [maddie, setMaddie] = useState (false);
+// }
 
 function HomePage() {
+  const [planeMessage, setPlaneMessage] = useState(false);
+
+  function clickMe() {
+    console.log("Yeah he is sexy too");
+  }
+
+  function handlePlaneMessage(event) {
+    setPlaneMessage(!planeMessage);
+    event.target.style.backgroundColor = planeMessage ? "green" : "red";
+    console.log("more leg room please");
+  }
+
   return (
     <main>
       <section className="s1 gutters">
@@ -23,6 +40,17 @@ function HomePage() {
             alias facere maiores sed. Sequi, placeat obcaecati.
           </p>
           <img id="shape1" src="../shape1.png" alt="shape1" />
+        </div>
+      </section>
+      <section className="homework gutters">
+        <div>
+          <button onClick={clickMe}>Richard is the best EVER!</button>
+          <img
+            onDoubleClick={handlePlaneMessage}
+            className="plane"
+            src="../airplane.png"
+            alt="plane"
+          />
         </div>
       </section>
     </main>

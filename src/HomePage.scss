@@ -37,7 +37,7 @@ main {
             height: 120px;
             width: auto;
             float: right;
-            animation-name: shape1,diagonalFall;
+            animation-name: shape1;
             animation-timing-function: linear;
             animation-duration: 3s,1s;
             
@@ -53,5 +53,24 @@ main {
                 }
             }
         }
-    }    
+    }  
+    .homework {
+        padding-bottom: 80px;
+
+        > div {
+            display: flex;
+            align-items: center;
+        }
+
+        >div >button {
+            cursor: pointer;
+            padding: 15px 15px;
+        }
+        .plane {
+            height: 36px;
+            width: auto;
+            cursor: pointer;
+            padding: 15px 15px;
+        }
+    }  
 }
