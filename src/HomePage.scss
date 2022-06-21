@@ -6,6 +6,10 @@ main {
             height: 80px;
             width: 100%;
 
+            > h1 {
+                font-family: "Lato";
+            }
+
             >img {
                 // animation: 1s infinite alternate heartmotion linear;
                 animation-duration: 1s;
@@ -52,6 +56,24 @@ main {
                     transform: translateY(-30px);
                 }
             }
+      
         }
-    }  
+        > div {
+            > p {
+                font-family: "Lato";
+            }
+            
+            > a {
+                border: 2px solid #b9004b;
+                background-color: #b9004b;
+                text-decoration: none;
+                border-radius: 5px;
+                font-family: "Lato";
+                width: 250px;
+                display: block;
+                padding: 15px 15px;
+                margin-bottom: 15px;
+            }
+        }
+    } 
 }
