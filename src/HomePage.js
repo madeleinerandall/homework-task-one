@@ -10,7 +10,7 @@ function HomePage() {
           <img src="../heart.png" alt="heart" />
         </div>
         <div>
-          <h1>I love Richard</h1>
+          <h1>Maddie's work examples</h1>
         </div>
       </section>
       <section className="s2 gutters">
@@ -27,7 +27,7 @@ function HomePage() {
           <img id="shape1" src="../shape1.png" alt="shape1" />
         </div>
         <div>
-          <NavLink to="./Services">JavaScript Examples</NavLink>
+          <NavLink to="./Services">JavaScript Event Handler Examples</NavLink>
         </div>
       </section>
     </main>
