@@ -1,4 +1,5 @@
 import "./Header.scss";
+import Svg from "./Svg";
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
           </a>
         </div>
       </div>
+      <Svg></Svg>
     </header>
   );
 }
