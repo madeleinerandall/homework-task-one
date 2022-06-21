@@ -1,4 +1,5 @@
 import "./HomePage.scss";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 function HomePage() {
@@ -24,6 +25,9 @@ function HomePage() {
             alias facere maiores sed. Sequi, placeat obcaecati.
           </p>
           <img id="shape1" src="../shape1.png" alt="shape1" />
+        </div>
+        <div>
+          <NavLink to="./Services">JavaScript Examples</NavLink>
         </div>
       </section>
     </main>

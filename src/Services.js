@@ -15,6 +15,10 @@ function Services() {
     setDisplayClicks(!displayClicks);
     e.target.style.background = "pink";
     console.log("click on someone your own size");
+
+    // if (displayClicks){
+    //   displayClicks = true then style.backgroun = "pink";
+    // }
   }
 
   return (
