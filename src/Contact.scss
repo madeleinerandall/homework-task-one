@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    > h2 {
+        width: 33.3%;
+        text-align: center;
+    }
+     
+    > p {
+        width: 33.3%;
+        text-align: center;
+    }
+     
+    > button {
+        width: 33.3%;
+        cursor: pointer;
+        padding: 15px 15px;
+    }
+}
