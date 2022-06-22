@@ -1,13 +1,15 @@
+import { NavLink } from "react-router-dom";
 import "./Header.scss";
-import Svg from "./Svg";
+import MobileNavButton from "./MobileNavButton";
 
 function Header() {
   return (
     <header id="header">
       <div className="header gutters">
-        <div className="logo">
+        <NavLink to="/" className="logo">
           <h1>Madeleine</h1>
-        </div>
+        </NavLink>
+
         <div className="socials">
           <a href="https://www.instagram.com/maddierandall/">
             <img src="../instagram.png" alt="insta" />
@@ -20,8 +22,14 @@ function Header() {
             <img src="../twitter.png" alt="twitter" />
           </a>
         </div>
+
+        <button
+          className="mobile-nav"
+          onClick={() => console.log("richard is sexy and has a juicy butt")}
+        >
+          <MobileNavButton />
+        </button>
       </div>
-      <Svg></Svg>
     </header>
   );
 }
