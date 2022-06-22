@@ -9,6 +9,7 @@
         align-items: center;
 
         >.logo {
+            text-decoration: none;
             >h1 {
                 color: white;
                 background-color: black;
@@ -20,6 +21,9 @@
         }
 
         >.socials {
+            @media (max-width: 800px) {
+                display: none;
+            }
             >a {
                 
                 &:hover {
@@ -37,6 +41,15 @@
                     }
                 }
             }
-        }   
+        } 
+        .mobile-nav {
+            background-color: #f2cad8;
+            border: none;
+            cursor: pointer;
+            
+            @media (min-width: 801px) {
+                display: none;
+            }
+        }
     }
 }
