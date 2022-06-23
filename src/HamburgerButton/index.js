@@ -1,4 +1,4 @@
-function MobileNavButton() {
+function HamburgerButton() {
   return (
     <svg height="40" width="40" viewBox="0 0 100 100">
       <line
@@ -32,4 +32,4 @@ function MobileNavButton() {
   );
 }
 
-export default MobileNavButton;
+export default HamburgerButton;

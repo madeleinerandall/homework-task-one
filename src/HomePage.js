@@ -27,7 +27,7 @@ function HomePage() {
           <img id="shape1" src="../shape1.png" alt="shape1" />
         </div>
         <div>
-          <NavLink to="./Services">JavaScript Event Handler Examples</NavLink>
+          <NavLink to="/Example1">JavaScript Event Handler Examples</NavLink>
         </div>
       </section>
     </main>

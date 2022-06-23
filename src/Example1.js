@@ -1,4 +1,4 @@
-import "./Services.scss";
+import "./Example1.scss";
 import { useState } from "react";
 
 function Services() {

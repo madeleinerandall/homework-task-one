@@ -6,7 +6,7 @@ import "./index.css";
 import Header from "./Header/Header";
 import HomePage from "./HomePage";
 import About from "./About";
-import Services from "./Services";
+import Example1 from "./Example1";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -19,7 +19,7 @@ root.render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/example1" element={<Example1 />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
